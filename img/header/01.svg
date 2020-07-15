@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="143" viewBox="0 0 204 143">
+  <defs>
+    <filter id="Rectangle_33" x="0" y="0" width="204" height="143" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18.5" result="blur"/>
+      <feFlood flood-color="#5271ff" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_1" data-name="1" transform="translate(-583.5 -134.5)">
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="110" height="94" rx="5" transform="translate(665 156)" fill="#7cbaea" opacity="0.588"/>
+    <rect id="Rectangle_31_copy" data-name="Rectangle 31 copy" width="99" height="72" rx="5" transform="translate(671 175)" fill="#7cbaea" opacity="0.588"/>
+    <g transform="matrix(1, 0, 0, 1, 583.5, 134.5)" filter="url(#Rectangle_33)">
+      <rect id="Rectangle_33-2" data-name="Rectangle 33" width="93" height="32" rx="3" transform="translate(55.5 44.5)" fill="#fff"/>
+    </g>
+    <g id="Group_4" data-name="Group 4">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="41" height="4" rx="2" transform="translate(680 186)" fill="#b2d6f3"/>
+      <rect id="Rectangle_35_copy" data-name="Rectangle 35 copy" width="27" height="4" rx="2" transform="translate(680 194)" fill="#d0d0e4"/>
+      <rect id="Rectangle_35_copy_2" data-name="Rectangle 35 copy 2" width="45" height="4" rx="2" transform="translate(680 201)" fill="#d0d0e4"/>
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="29" height="21" rx="3" transform="translate(646 185)" fill="#b2d6f3"/>
+    </g>
+    <g id="Group_4_copy" data-name="Group 4 copy">
+      <rect id="Rectangle_35-2" data-name="Rectangle 35" width="41" height="4" rx="2" transform="translate(714 217)" fill="#d0d0e4"/>
+      <rect id="Rectangle_35_copy-2" data-name="Rectangle 35 copy" width="27" height="4" rx="2" transform="translate(714 225)" fill="#d0d0e4"/>
+      <rect id="Rectangle_35_copy_2-2" data-name="Rectangle 35 copy 2" width="45" height="4" rx="2" transform="translate(714 232)" fill="#d0d0e4"/>
+      <rect id="Rectangle_34-2" data-name="Rectangle 34" width="29" height="21" rx="3" transform="translate(680 216)" fill="#aed2f3"/>
+      <path id="Shape_5" data-name="Shape 5" d="M671,211h60l-60,34Z" opacity="0.051"/>
+    </g>
+    <path id="TICK" d="M667.036,192.686h0l-6.9,6.9h0a.9.9,0,0,1-1.273,0h0l-3.9-3.9h0a.9.9,0,1,1,1.273-1.272h0l3.264,3.263,6.264-6.264h0a.9.9,0,0,1,1.273,1.273Z" fill="#fff"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="3" cy="3" r="3" transform="translate(672 163)" fill="#fff"/>
+    <circle id="Ellipse_17_copy" data-name="Ellipse 17 copy" cx="3" cy="3" r="3" transform="translate(682 163)" fill="#fff"/>
+    <circle id="Ellipse_17_copy_2" data-name="Ellipse 17 copy 2" cx="3" cy="3" r="3" transform="translate(691 163)" fill="#fffefd"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="53" height="6" rx="3" transform="translate(701 163)" fill="#fff"/>
+  </g>
+</svg>

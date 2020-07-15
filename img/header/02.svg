@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217.5" height="149.74" viewBox="0 0 217.5 149.74">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_31_copy" data-name="Rectangle 31 copy" width="99" height="72" rx="5" transform="translate(1141 225)" fill="#90c4ee" opacity="0.588"/>
+    </clipPath>
+    <filter id="Rectangle_33" x="0" y="6.74" width="204" height="143" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="18.5" result="blur"/>
+      <feFlood flood-color="#5271ff" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_2" data-name="2" transform="translate(-1053.5 -177.76)">
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="110" height="94" rx="5" transform="translate(1135 206)" fill="#b2d6f3" opacity="0.588"/>
+    <g id="Rectangle_31_copy-2" data-name="Rectangle 31 copy">
+      <rect id="Rectangle_31_copy-3" data-name="Rectangle 31 copy" width="99" height="72" rx="5" transform="translate(1141 225)" fill="#90c4ee" opacity="0.588"/>
+      <g id="Clip" clip-path="url(#clip-path)">
+        <circle id="Ellipse_18" data-name="Ellipse 18" cx="34.22" cy="34.22" r="34.22" transform="translate(1215.78 265.78)" fill="#1a1a1a" opacity="0.102"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 1053.5, 177.76)" filter="url(#Rectangle_33)">
+      <rect id="Rectangle_33-2" data-name="Rectangle 33" width="93" height="32" rx="3" transform="translate(55.5 51.24)" fill="#fff"/>
+    </g>
+    <g id="Group_4" data-name="Group 4">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="41" height="4" rx="2" transform="translate(1150 236)" fill="#b2d6f3"/>
+      <rect id="Rectangle_35_copy" data-name="Rectangle 35 copy" width="27" height="4" rx="2" transform="translate(1150 244)" fill="#b2d6f3"/>
+      <rect id="Rectangle_35_copy_2" data-name="Rectangle 35 copy 2" width="45" height="4" rx="2" transform="translate(1150 251)" fill="#b2d6f3"/>
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="29" height="21" rx="3" transform="translate(1116 235)" fill="#b2d6f3"/>
+    </g>
+    <g id="Group_4_copy" data-name="Group 4 copy">
+      <rect id="Rectangle_35-2" data-name="Rectangle 35" width="41" height="4" rx="2" transform="translate(1184 267)" fill="#d2e7f8"/>
+      <rect id="Rectangle_35_copy-2" data-name="Rectangle 35 copy" width="27" height="4" rx="2" transform="translate(1184 275)" fill="#d2e7f8"/>
+      <rect id="Rectangle_35_copy_2-2" data-name="Rectangle 35 copy 2" width="45" height="4" rx="2" transform="translate(1184 282)" fill="#d2e7f8"/>
+      <rect id="Rectangle_34-2" data-name="Rectangle 34" width="29" height="21" rx="3" transform="translate(1150 266)" fill="#d2e7f8"/>
+      <path id="Shape_6" data-name="Shape 6" d="M1141,261l60-1-60,34Z" opacity="0.051"/>
+    </g>
+    <path id="TICK" d="M1137.036,242.686h0l-6.9,6.9h0a.9.9,0,0,1-1.273,0h0l-3.9-3.9h0a.9.9,0,1,1,1.273-1.273h0l3.264,3.264,6.264-6.263h0a.9.9,0,0,1,1.273,1.273Z" fill="#fff"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="3" cy="3" r="3" transform="translate(1142 213)" fill="#fff"/>
+    <circle id="Ellipse_17_copy_2" data-name="Ellipse 17 copy 2" cx="3" cy="3" r="3" transform="translate(1161 213)" fill="#fff"/>
+    <circle id="Ellipse_17_copy" data-name="Ellipse 17 copy" cx="3" cy="3" r="3" transform="translate(1152 213)" fill="#fff"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="53" height="6" rx="3" transform="translate(1171 213)" fill="#fff"/>
+    <circle id="Ellipse_18_copy_2" data-name="Ellipse 18 copy 2" cx="23" cy="23" r="23" transform="translate(1225 276)" fill="#d2e7f8"/>
+    <path id="Shape_4" data-name="Shape 4" d="M1113,217l15,2s-8-7-8-13S1113,217,1113,217Z" fill="#d2e7f8"/>
+    <path id="Ellipse_18_copy" data-name="Ellipse 18 copy" d="M1108,177.76A20.24,20.24,0,1,1,1087.76,198,20.24,20.24,0,0,1,1108,177.76Z" fill="#d2e7f8"/>
+  </g>
+</svg>
