@@ -1581,7 +1581,7 @@ body {
     color: #000;
   }
 }
-@media (min-width: 425px) {
+@media (min-width: 425px) and (max-width: 823px) {
   .footer {
     background-color: #ECF2FF;
     display: flex;
