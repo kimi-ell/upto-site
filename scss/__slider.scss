@@ -1,0 +1,76 @@
+.slick-slider {
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+
+.slider-wrap {
+    position: relative;
+}
+
+.slide-people {
+    position: relative;
+
+    .slick-arrow {
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        font-size: 0;
+        display: flex;
+    }
+
+    // .slick-arrow.slick-prev {
+    //     left: 0;
+    //     width: 30px;
+    //     height: 10px;
+    //     background: url(../img/people/arrow-back.svg) 0 0 no-repeat;
+        
+    //     fill: #464EE5;
+    //     transition: .3s;
+
+    //     &:hover {
+    //         background: url(../img/people/arrow-back-h.svg) 0 0 no-repeat;
+    //     }
+    // }
+
+    // .slick-arrow.slick-next {
+    //     right: 0;
+    //     width: 30px;
+    //     height: 10px;
+    //     background: url(../img/people/arrow-next.svg) 0 0 no-repeat;
+    // }
+
+    
+    
+    
+}
+
+.slide-people-arrows {
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+}
+.arrow {
+    height: 10px;
+    width: 30px;
+    background-color: transparent;
+    fill: #c3acac;
+    transition: .3s;
+
+    &:hover {
+        fill: #464EE5;
+    }
+}
+.arrow-left {
+    margin-right: 18px;
+}
+.arrow-right {
+}
+
+
+
