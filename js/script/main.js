@@ -1,5 +1,17 @@
 $(document).ready(function() {
-
+    //фиксированная шапка
+    const navOffset = $('.nav').offset().top;
+    $(window).scroll(function(){
+        
+        const scrolled = $(this).scrollTop();
+        if (scrolled > navOffset) {
+            $('.header').addClass('nav-fixed');
+        }
+        else if (scrolled < navOffset) {
+            $('.header').removeClass('nav-fixed');
+        }
+        
+    });
     //всплывающее меню
     $('.header-nav-btn__menu').click(function(event) {
         $('.header-nav-btn__menu,.header-nav-menu').toggleClass('active');
