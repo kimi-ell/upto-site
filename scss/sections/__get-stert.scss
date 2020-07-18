@@ -127,7 +127,7 @@
     }
 }
 
-@media(max-width: 425px) {
+@media(min-width: 411px) and (max-width:823px) {
     .get__stert {
     
         &-conteiner {
@@ -150,12 +150,17 @@
         }
     
         &-column.r {
+            display: block;
             margin-right: 0px;
             margin-bottom: 20px;
         }
     
         &-column-link {
             margin-right: 0px;
+        }
+
+        &-column-btn {
+            margin-top: 20px;
         }
         
     }

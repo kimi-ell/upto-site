@@ -98,7 +98,8 @@
                     height: 143px;
                     width: 143px;
                     border-radius: 35px 0 35px 0;
-                    margin-right: 60px; 
+                    margin-right: 40px;
+                    margin-left: 20px; 
                 }
 
                 &-img.four img{
@@ -203,6 +204,82 @@
     }
 }
 
+@media (max-width:823px) {
+    .people {
+    
+        background-color: #ECF2FF;
+        margin-bottom: 20px;
+    
+        &-row {
+            display: block;
+            background: url(../img/people/bg.svg) 165% 0 no-repeat;
+            padding-bottom: 0px;
+            
+        }
+    
+        &-column {
+            flex: 0 1 100%;
+            text-align: left;
+            margin-top: 0px;
+    
+            &-block-l {
+    
+                &-column {
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-left: 0px;
+                }
+            }
+        }
+    
+        
+    
+        &-column.l {
+            padding-top: 120px;
+        }
+    
+        &-column {
+    
+            &-block-r {
+                text-align: left;
+                margin: 50px 0 100px 0px;
+                
+                &-title {
+                    
+                    font-weight: 600;
+                    line-height: 48px;
+                    color: #30323A;
+                    margin-bottom: 10px;
+                }
+    
+                &-text {
+                    
+                    line-height: 26px;
+                    color: #8C8C98;
+                    margin-bottom: 14px;
+                }
+    
+                &-label {
+                    display: flex;
+                    
+                    font-weight: 300;
+                    line-height: 26px;
+                    color: #30323A;
+    
+                    :not(:last-child) {
+                        margin-right: 15px;
+                    }
+                }
+            }
+    
+            
+        }
+    
+        &-column.r {
+            margin-top: 150px;
+        }
+    }
+}
 @media (max-width: 768px) {
     .people {
     
@@ -280,14 +357,13 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 411px) {
     .people {
     
         &-row {
             display: block;
-            background: url(../img/people/bg.svg) 35% 0 no-repeat;
+            background: none;
             padding-bottom: 0px;
-            
         }
 
         &-column.r {

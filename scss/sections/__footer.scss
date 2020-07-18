@@ -186,6 +186,7 @@
     
             &-wrap {
                 display: flex;
+                flex-direction: column;
                 justify-content: space-between;
                 margin-bottom: 80px;
             }
@@ -193,10 +194,103 @@
             &-column.r {
                 flex: 0 1 auto;
                 margin-right: 70px;
+                order: 1;
+                margin-bottom: 30px;
+                margin-top: 30px;
             }
     
             &-column.l {
                 flex: 0 1 20%;
+                order: 2;
+            }
+    
+            &-left-logo {
+                margin-bottom: 22px;
+            }
+    
+            &-left-text {
+                font-size: 17px;
+                line-height: 27px;
+                color: #8C8C98;
+            }
+            
+            &-right-row {
+                display: flex;
+                flex-direction: column;
+                margin: 0 -50px;
+            }
+    
+            &-right-column {
+                padding: 0 50px;
+            }
+    
+            &-right-title {
+                font-size: 17px;
+                font-weight: 700;
+                line-height: 20px;
+                color: #30323A;
+                margin-bottom: 27px;
+                cursor: pointer;
+            }
+    
+            &-right-list {
+                display: none;
+            }
+    
+            &-right-link {
+                font-size: 14px;
+                line-height: 16px;
+                color: #8C8C98;
+                
+            }
+    
+            &-right-item:not(:last-child) {
+                margin-bottom: 14px;
+            }
+        }
+    
+        &-copyright {
+            color: #8C8C98;
+            font-size: 14px;
+            line-height: 23px;
+    
+            &-link {
+                color: #000;
+            }
+        }
+    
+    }
+}
+
+@media(min-width:411px) and (max-width:823px) {
+    .footer {
+    
+        background-color: #ECF2FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 50px;
+    
+        &-body {
+            
+            margin-top: 200px;
+    
+            &-wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-bottom: 80px;
+            }
+    
+            &-column.r {
+                flex: 0 1 auto;
+                margin-right: 70px;
+                order: 1;
+            }
+    
+            &-column.l {
+                flex: 0 1 20%;
+                order: 2;
             }
     
             &-left-logo {

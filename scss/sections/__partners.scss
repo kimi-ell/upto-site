@@ -8,6 +8,10 @@
 .partners-wraperr {
     display: flex;
 
+    @media (max-width:823px) {
+        display: block;
+    }
+
     @media (max-width:768px) {
         display: block;
     }
@@ -28,6 +32,10 @@
     top: 0;
     left: -60%;
     
+    @media (max-width:823px) {
+        left: -5%;
+    }
+
     @media (max-width:768px) {
         left: -20%;
     }
@@ -76,6 +84,11 @@
 
 .partners__column.r {
     margin-left: 100px;
+
+    @media (max-width:823px) {
+        margin-left: 0;
+        margin-top: 150px;
+    }
 
     @media (max-width:768px) {
         margin-left: 0;

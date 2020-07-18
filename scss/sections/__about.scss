@@ -67,26 +67,26 @@
             }
             
         }
+        /*//right*/
+    }     
+}
 
-        @media (max-width:425px) {
+@media (min-width: 411px) and (max-width:823px) {
+    .about {
+        margin-bottom: 70px;
+
+        &-row {
+            display: block;
+            justify-content: space-between;
+        }
+    
+        &-column {
+    
             &-img {
                 display: none;
             }
+
+
         }
-        /*//right*/
-    }
-
-    @media (max-width:425px) {
-
-    &-row {
-        display: block;
-        justify-content: space-between;
-    }
-}       
-}
-
-@media (max-width: 425px) {
-    .about {
-        margin-bottom: 70px;
     }
 }
