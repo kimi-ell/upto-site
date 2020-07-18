@@ -1,0 +1,53 @@
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+}
+
+.slider-wrap {
+    position: relative;
+}
+
+.slide-people {
+    position: relative;
+}
+
+.slide-people-arrows {
+    position: absolute;
+    z-index: 4;
+    bottom: -43px;
+
+    @media (max-width:768px) {
+        bottom: 43px;
+    }
+}
+.arrow {
+    height: 10px;
+    width: 30px;
+    background-color: transparent;
+    fill: #c3acac;
+    transition: .3s;
+
+    @media (min-width:770px) {
+        &:hover {
+            fill: #464EE5;
+        }
+    }
+
+    @media (max-width:768px) {
+        &:active {
+            fill: #464EE5;
+        }
+    }
+    
+}
+.arrow-left {
+    margin-right: 18px;
+}
+
+
+
+

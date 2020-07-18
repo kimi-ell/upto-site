@@ -1,0 +1,140 @@
+.partners-section {
+    background: url(../img/partnership/bg-01.svg) 0 0 no-repeat;
+    padding:  25px 0;
+    min-height: 530px;
+    margin-bottom: 130px;
+}
+
+.partners-wraperr {
+    display: flex;
+
+    @media (max-width:768px) {
+        display: block;
+    }
+}
+
+.partners__column.l {
+    display: flex;
+    flex: 0 1 70%;
+}
+
+.partners__column-left-wrap {
+    position: relative;
+    display: flex;
+}
+
+.partners__column-left-video__img {
+    position: absolute;
+    top: 0;
+    left: -60%;
+    
+    @media (max-width:768px) {
+        left: -20%;
+    }
+}
+
+.partners__column-left-video__img img {
+    border-radius: 10px;
+}
+
+.partners__column-left-video__img span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #0000FF, $alpha: .7);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.partners__column-left-body {
+    z-index: 2;
+    color: #fff;
+    margin: 10% 0 0 170px;
+
+    @media (max-width:768px) {
+        margin: 10% 0 0 0;
+    }
+
+    &-title {
+        @include adaptiv-font(135, 120);
+        font-weight: bold;
+        line-height: 145px;
+        margin-top: 100px; 
+    }
+
+    &-subtitle {
+        display: flex;
+        margin-top: 86px;
+    }
+
+    &-link {
+        margin-right: 20px;
+    }
+}
+
+.partners__column.r {
+    margin-left: 100px;
+
+    @media (max-width:768px) {
+        margin-left: 0;
+        margin-top: 150px;
+    }
+}
+
+.partners__column-right-wrap {
+    margin: 88px 0 0 0;
+
+    @media (max-width:768px) {
+        margin: 0 0 0 0;
+    }    
+}
+
+.partners__column-right-title {
+    @include adaptiv-font(42, 40);
+    font-weight: 700;
+    line-height: 50px;
+    color: #303239;
+    margin-bottom: 38px;
+}
+
+.partners__column-right-text {
+    @include adaptiv-font(15, 14);
+    line-height: 30px;
+    color: #8C8C98;
+    margin-bottom: 30px;
+}
+
+.partners__column-right-link__block {
+
+}
+
+.partners__column-right-link {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #C3ACAC;
+    fill: #c3acac;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+
+    @media (min-width: 770px) {
+        &:hover {
+            color: #464EE5;
+            fill: #464EE5;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &:active {
+            color: #464EE5;
+            fill: #464EE5;
+        }
+    }
+}
+
+.partners__column-right-link svg {
+    margin-left: 18px;
+}

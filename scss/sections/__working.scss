@@ -1,0 +1,137 @@
+.working {
+    margin-bottom: 120px;
+
+    &-block-top {
+        margin-bottom: 90px;
+        color: #303239;
+
+        &-title {
+            @include adaptiv-font(58, 40);
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 20px;
+        }
+
+        &-subtitle {
+            display: flex;
+            @include adaptiv-font(19, 16);
+            font-weight: 300;
+            line-height: 22px;
+        }
+
+        &-subtitle p {
+            display: block;
+            margin-right: 10px;
+
+            :last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+
+    &-block-botton {
+
+        &-row {
+            display: flex;
+            margin: 0 -31px;
+        }
+
+        &-column {
+            flex: 0 1 33.333%;
+            padding: 0 31px;
+
+            &-img {
+                margin-bottom: 33px;
+            }
+
+            &-title {
+                @include adaptiv-font(42, 28);
+                font-weight: 700;
+                line-height: 50px;
+                color: #30323A;
+                margin-bottom: 28px;
+            }
+
+            &-text {
+                @include adaptiv-font(17, 14);
+                line-height: 38px;
+                color: #8C8C98;
+            }
+        }
+    }
+}
+
+@media (max-width:425px) {
+    .working{
+
+        &-block-top {
+            margin-bottom: 60px;
+
+            &-title {
+                
+                line-height: 56px;
+                margin-bottom: 16px;
+            }
+    
+            &-subtitle {
+               
+                line-height: 20px;
+            }
+        }
+    
+        &-block-botton {
+    
+            &-row {
+                display: block;
+                margin: 0 0px;
+            }
+    
+            &-column {
+                flex: 0 1 100%;
+                padding: 0 0px;
+                margin-bottom: 20px;
+    
+                &-img {
+                    margin-bottom: 33px;
+                    margin-right: 20px;
+                }
+    
+                &-title {
+                    
+                    font-weight: 700;
+                    line-height: 50px;
+                    color: #30323A;
+                    margin-bottom: 10px;
+                }
+    
+                &-text {
+                    line-height: 34px;
+                    color: #8C8C98;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width:568px) {
+    .working{
+
+        &-block-top {
+            margin-bottom: 60px;
+        }
+    
+        &-block-botton {
+    
+            &-row {
+                display: block;
+                margin: 0 0px;
+            }
+    
+            &-column {
+                flex: 0 1 100%;
+                padding: 0 0px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
