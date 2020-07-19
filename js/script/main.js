@@ -1,21 +1,30 @@
 $(document).ready(function() {
     //фиксированная шапка
-    var lastScrollTop = 0;
+    const navOffset = $('.nav').offset().top;
+    // var lastScrollTop = 0;
     $(window).scroll(function(event){
-        var st = $(this).scrollTop();
-        if (st > lastScrollTop){
-        }
-        else {
-            $('.header').addClass('nav-fixed');
-        }
-        lastScrollTop = st;
+        // var st = $(this).scrollTop();
+        // if (st > lastScrollTop){
+        //     $('.header').removeClass('nav-fixed');
+        // }
+        // else {
+        //     $('.header').addClass('nav-fixed');
+        // }
+        // lastScrollTop = st;
+         const scrolled = $(this).scrollTop();
+         if (scrolled > navOffset) {
+             $('.header').addClass('nav-fixed');
+         }
+         else if (scrolled < navOffset) {
+             $('.header').removeClass('nav-fixed');
+         } 
     });
-    $(window).scroll(function(event){
-        var st = $(this).scrollTop();
-        if (st == 0) {
-            $('.header').removeClass('nav-fixed');
-        }
-    });
+    // $(window).scroll(function(event){
+    //     var st = $(this).scrollTop();
+    //     if (st == 0) {
+    //         $('.header').removeClass('nav-fixed');
+    //     }
+    // });
     //всплывающее меню
     $('.header-nav-btn__menu').click(function(event) {
         $('.header-nav-btn__menu,.header-nav-menu').toggleClass('active');
