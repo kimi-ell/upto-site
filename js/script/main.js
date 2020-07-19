@@ -1,16 +1,14 @@
 $(document).ready(function() {
     //фиксированная шапка
     const navOffset = $('.nav').offset().top;
-    $(window).scroll(function(){
-        
+    $(window).scroll(function(event){
         const scrolled = $(this).scrollTop();
         if (scrolled > navOffset) {
             $('.header').addClass('nav-fixed');
         }
         else if (scrolled < navOffset) {
             $('.header').removeClass('nav-fixed');
-        }
-        
+        } 
     });
     //всплывающее меню
     $('.header-nav-btn__menu').click(function(event) {
@@ -21,9 +19,6 @@ $(document).ready(function() {
         $('.header-nav-btn__menu,.header-nav-menu').removeClass('active');
         $('body').removeClass('lock')
     });
-
-    
-
     //слайдер
     $('.slide-people').slick({
         infinite: false,
@@ -31,12 +26,17 @@ $(document).ready(function() {
         slidesToScroll: 1,
         prevArrow: $('.arrow-left'),
         nextArrow: $('.arrow-right')
-    });
-        
+    });   
+    //wow-animations
+    wow = new WOW({
+        offset: 30,
+        mobile: true,
+        live: true
+    })
+    wow.init();
 });
 
 $(window).resize(function(){
-    if ( $(window).width() < 770 ) {
         //спойлеры в подвале
         $('.footer-body-right-title').click(function(event){
             if($('.footer-body-right-row').hasClass('one')){
@@ -45,5 +45,4 @@ $(window).resize(function(){
             }
             $(this).toggleClass('active__list').next().slideToggle(300);
         });
-    }
 });
