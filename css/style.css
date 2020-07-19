@@ -174,11 +174,7 @@ body {
   max-width: 950px;
   margin: 0 auto;
   padding: 0 30px;
-  
-  
-  
   height: 100px;
- 
 }
 .header-nav-btn__menu {
   display: none;
@@ -203,6 +199,11 @@ body {
   line-height: 15px;
   color: #30333A;
 }
+@media (min-width:768px) {
+  .header-nav-menu-item-link:hover {
+    color: #2020DF;
+  }
+}
 @media (max-width: 425px) {
   .header-nav-menu-list {
     display: none;
@@ -212,6 +213,13 @@ body {
   background-color: #2020DF;
   border-radius: 5px;
   padding: 15px 30px;
+  transition: .3s;
+  cursor: pointer;
+}
+@media (min-width:768px) {
+  .header-nav-btn:hover {
+    box-shadow: 0 0 20px 2px rgba(107, 64, 195, 0.6);
+  }
 }
 .header-nav-btn-link {
   font-family: "Ubuntu", sans-serif;
@@ -226,7 +234,7 @@ body {
 .header-nav-btn.botton {
   display: none;
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .header-nav-btn {
     display: none;
   }
@@ -1903,6 +1911,12 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: #8C8C98;
+  }
+
+  @media (min-width:768px) {
+    .footer-body-right-link:hover {
+      color: #2020DF;
+    }
   }
   .footer-body-right-item:not(:last-child) {
     margin-bottom: 14px;
