@@ -1,14 +1,29 @@
 $(document).ready(function() {
     //фиксированная шапка
-    const navOffset = $('.nav').offset().top;
+    //const navOffset = $('.nav').offset().top;
+    var lastScrollTop = 0;
     $(window).scroll(function(event){
-        const scrolled = $(this).scrollTop();
-        if (scrolled > navOffset) {
+        var st = $(this).scrollTop();
+        if (st > lastScrollTop){
+            $('.header').removeClass('nav-fixed');
+        }
+        else {
             $('.header').addClass('nav-fixed');
         }
-        else if (scrolled < navOffset) {
+        lastScrollTop = st;
+        // const scrolled = $(this).scrollTop();
+        // if (scrolled > navOffset) {
+        //     $('.header').addClass('nav-fixed');
+        // }
+        // else if (scrolled < navOffset) {
+        //     $('.header').removeClass('nav-fixed');
+        // } 
+    });
+    $(window).scroll(function(event){
+        var st = $(this).scrollTop();
+        if (st == 0) {
             $('.header').removeClass('nav-fixed');
-        } 
+        }
     });
     //всплывающее меню
     $('.header-nav-btn__menu').click(function(event) {
