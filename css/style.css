@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 4;
   bottom: -43px;
 }
-@media (max-width: 768px) {
+@media (max-width: 827px) {
   .slide-people-arrows {
     bottom: 43px;
   }
@@ -1127,7 +1127,7 @@ body {
   flex: 0 1 40%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 827px) {
   .people {
     background-color: #ECF2FF;
     margin-bottom: 20px;
